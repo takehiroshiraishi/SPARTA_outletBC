@@ -36,7 +36,7 @@ enum{NUMERIC,CUSTOM,VARIABLE,VAREQUAL,VARSURF};   // surf_collide classes
 SurfCollideOutletV::SurfCollideOutletV(SPARTA *sparta, int narg, char **arg) :
   SurfCollide(sparta, narg, arg)
 {
-  if (narg != 5 ) error->all(FLERR,"Illegal surf_collide outlet_v command");
+  if (narg != 5 ) error->all(FLERR,"Illegal surf_collide outletv command");
 
   // macroscopic velocity
   vx = atof(arg[2]);
