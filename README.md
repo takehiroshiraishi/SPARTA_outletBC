@@ -12,3 +12,10 @@ double maxwidth;        // width of the system
 
 double margin = (maxwidth - width) * 0.5; // width of the region without gradient
 ```
+
+## outletvParabolic input parameters
+```
+int directionv;
+double meanv;
+double maxx;
+```
