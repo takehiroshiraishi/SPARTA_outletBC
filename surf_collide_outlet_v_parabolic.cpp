@@ -86,7 +86,7 @@ collide(Particle::OnePart *&ip, double &,
   double v_p = MathExtra::len3(tangent1);
 
   MathExtra::norm3(tangent1); // normalize vector
-  double u0dotn = 4 * meanv / (maxx * maxx) * x[directionv] * (maxx - x[directionv]); 
+  double u0dotn = 6 * meanv / (maxx * maxx) * x[directionv] * (maxx - x[directionv]); 
   double u0dottan = 0;
 
   v[0] = -(2*u0dotn - u_p)*norm[0] + (2*u0dottan - v_p)*tangent1[0];
